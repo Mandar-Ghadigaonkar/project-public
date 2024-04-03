@@ -1,0 +1,22 @@
+  <!-- Inside the <div id="searchResults"> element -->
+  <!-- <div id="searchResults">
+    <% if (result && result.length> 0) { %>
+      <ul>
+        <% result.forEach(book=> { %>
+          <li>
+            <img src="./degree books/b com/sem 1/a/<%= book.image %>">
+            <h3>
+              <%= book.name %>
+            </h3>
+            <p class="publisher">Publisher: <%= book.publisher %>
+            </p>
+            <p class="price">Price: ₹<%= book.price %>
+            </p>
+            <!-- Add more information as needed -->
+          <!-- </li>
+          <% }); %>
+      </ul>
+      <% } else { %>
+        <p>No results found.</p>
+        <% } %>
+  </div> --> 
